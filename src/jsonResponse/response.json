@@ -1,0 +1,78 @@
+{
+    "Response Body": [
+        {
+            "collegeId": 1,
+            "collegeName": "Liverpool International College",
+            "collegeAddress": "Baneshwor",
+            "collegeContactInfo": {
+                "collegeContactInfoId": 1,
+                "collegePhoneNo": "01-313219",
+                "collegeEmail": "LiverpoolCollege@gmail.com"
+            },
+            "departments": [
+                {
+                    "departmentId": 1,
+                    "departmentName": "CSIT",
+                    "departmentAddress": "Baneshwor",
+                    "departmentPhoneNo": "09-2149811",
+                    "students": [
+                        {
+                            "studentId": 1,
+                            "studentName": "Ashitoush Rawal",
+                            "studentAddress": "Tikathali",
+                            "studentPhoneNo": "9093587311"
+                        },
+                        {
+                            "studentId": 2,
+                            "studentName": "Manmohan Subedi",
+                            "studentAddress": "Gathaghar",
+                            "studentPhoneNo": "9093587221"
+                        }
+                    ]
+                },
+                {
+                    "departmentId": 2,
+                    "departmentName": "BBA",
+                    "departmentAddress": "Baneshwor",
+                    "departmentPhoneNo": "09-2249165",
+                    "students": [
+                        {
+                            "studentId": 3,
+                            "studentName": "Abishek Khadka",
+                            "studentAddress": "Boudha",
+                            "studentPhoneNo": "90935873234"
+                        },
+                        {
+                            "studentId": 4,
+                            "studentName": "Amrit Thapa",
+                            "studentAddress": "Boudha",
+                            "studentPhoneNo": "9093587223"
+                        }
+                    ]
+                },
+                {
+                    "departmentId": 3,
+                    "departmentName": "BCA",
+                    "departmentAddress": "Baneshwor",
+                    "departmentPhoneNo": "01-2349211",
+                    "students": [
+                        {
+                            "studentId": 5,
+                            "studentName": "Bigyan Bhandari",
+                            "studentAddress": "Chabahil",
+                            "studentPhoneNo": "9093583211"
+                        },
+                        {
+                            "studentId": 6,
+                            "studentName": "Binod Bhandari",
+                            "studentAddress": "Chabahil",
+                            "studentPhoneNo": "9093587231"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Status Code": 200,
+    "message": "Successfully retrieve"
+}
